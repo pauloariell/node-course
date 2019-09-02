@@ -7,3 +7,6 @@ app.get('/', (req,res) => {
 });
 
 app.listen(2050);
+
+//docker ps -a
+//docker start mongodb
