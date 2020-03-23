@@ -1,12 +1,21 @@
 const express = require('express');
+const mongoose = require('mongoose');
 
+//Iniciando o APP
 const app = express();
 
-app.get('/', (req,res) => {
-    res.send('Hello Paulo! Just continue...Yes, continue!');
-});//aaaa
+//Iniciando o DB
+mongoose.connect(
+    'mongodb://localhost:27017/nodeapi',
+    { 
+        useNewUrlParser: true,
+        useUnifiedTopology: true
+    },
+);
 
-app.listen(2050);
+//Primeira Ro
+app.get('/', (req, res) => {
+    res.send("Hello uordi!");
+});
 
-//docker ps -a
-//docker start mongodb
+app.listen(3001);
