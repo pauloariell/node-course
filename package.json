@@ -1,5 +1,5 @@
 {
-  "name": "nodeCourse",
+  "name": "node-course",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,20 +9,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pauloariell/nodeCourse.git"
+    "url": "git+https://github.com/pauloariell/node-course.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pauloariell/nodeCourse/issues"
+    "url": "https://github.com/pauloariell/node-course/issues"
   },
-  "homepage": "https://github.com/pauloariell/nodeCourse#readme",
+  "homepage": "https://github.com/pauloariell/node-course#readme",
   "dependencies": {
-    "express": "^4.17.1",
-    "mongoose": "^5.9.5"
+    "express": "^4.17.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.2"
+    "nodemon": "^2.0.3"
   }
 }
